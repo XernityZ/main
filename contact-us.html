@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title> <!--Subect to Change [Template]-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact-form.css.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <header>
+                <!--Navigation Bar-->
+                <div class="navbar">
+                    <span class="title">Xernity</span>
+                    <a href="index.html">Home</a>
+                    <a href="contact-us.html">Contact Us</a>
+                    <a href="games.html">Games</a>
+
+                </div>
+                <div class="navbar-hr">
+                    <hr>
+                </div>
+            </header>
+
+            <main>
+
+                <link href="contact-form.css" rel="stylesheet">
+
+                <div class="fcf-body">
+
+                    <div id="fcf-form">
+                        <h3 class="fcf-h3">Contact us</h3>
+
+                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                            <div class="fcf-form-group">
+                                <label for="Name" class="fcf-label">Your name</label>
+                                <div class="fcf-input-group">
+                                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="fcf-form-group">
+                                <label for="Email" class="fcf-label">Your email address</label>
+                                <div class="fcf-input-group">
+                                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="fcf-form-group">
+                                <label for="Message" class="fcf-label">Your message</label>
+                                <div class="fcf-input-group">
+                                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6"
+                                        maxlength="3000" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="fcf-form-group">
+                                <button type="submit" id="fcf-button"
+                                    class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+    </main>
+</body>
+
+</html>
